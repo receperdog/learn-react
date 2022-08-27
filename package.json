@@ -1,0 +1,14 @@
+{
+  "name": "node_and_react_learn",
+  "version": "1.0.0",
+  "description": "Rejoin the Node&React world!",
+  "main": "learn.js",
+  "scripts": {
+    "start": "node learn"
+  },
+  "author": "Recep T. Erdogan",
+  "license": "MIT",
+  "dependencies": {
+    "slugify": "^1.6.5"
+  }
+}

@@ -1,0 +1,16 @@
+=> Geliştirdiğimiz UI çok fazla DOM manipülasyon gerektiriyorsa REACT kullanılmalı.
+
+=> REAL DOM VE VIRTUAL DOM
+HTML etiketlerinin tamamına Real DOM deniyor. Virtual DOM ne ? Virtual Dom aslında Real DOM'un aynısı,
+fakat React çalışırken virtual dom ile real dom'u karşılaştırıyor eğer farklı olan bir variable var ise,
+React sadece o DOM'da o kısımı değiştirerek sadece o DOM'un render edilmesini sağlıyor.
+
+
+=> node ortamında, bir projeyi başlatmadan önce "npm init" dersek proje ile ilgili olacak bir package.json
+dosyası oluşturulmakta, bu json dosyasının içerisinde projenin ismi, lisansı, versiyonu, dependencies
+gibi bilgiler yer almakta, böylece daha sonra modüller kaybolsa dahi npm install komutu yazıldığında 
+projenin bağlı olduğu dependencies ler indirilerek kurulmakta. Bunun yanında bu JSON dosyasının içerisinde
+scripts objesi yer almakta ve burada proje için gerekli scripts'lerimizi yazabilmekteyiz. örneğin
+projemizin başladığı javascript file'inin ismi learn ise her seferinde node learn komutu yazmak yerine
+scripts kısmına node learn kısmını yazarsak ve daha başka scriptsleri npm start dediğimizde bu scriptlerin
+hepsi sırası ile çalıştırılır.
